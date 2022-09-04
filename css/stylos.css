@@ -1,9 +1,31 @@
-body{
-    background-color: yellowgreen;
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
 }
-div{
-   
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+}
+.header{
+   display: flex;
+}
+.lista_menu{
+    list-style: none;
+}
+.main{
     background-color: blue;
-    width: 90px ;
-    height: 150px;
+}
+.main_principal{
+    background-color: coral;
+}
+.main_aside{
+    background-color: darkkhaki;
+}
+
+.footer{
+    background-color: darkgreen;
 }
